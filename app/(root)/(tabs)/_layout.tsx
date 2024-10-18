@@ -43,6 +43,7 @@ export default function Layout() {
           title: 'Home',
           headerShown: false,
           tabBarIcon: ({ focused }) => <TabIcon source={icons.home} focused={focused} />,
+
         }}
       />
       <Tabs.Screen
