@@ -23,6 +23,7 @@ import profile from "~/assets/icons/profile.png";
 import search from "~/assets/icons/search.png";
 import star from "~/assets/icons/star.png";
 import noResult from "~/assets/images/no-result.png";
+import exit from "~/assets/images/exit.jpg";
 
 export const icons = {
   arrowDown,
@@ -51,4 +52,5 @@ export const icons = {
 
 export const images = {
   noResult,
+  exit
 };
