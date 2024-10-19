@@ -19,7 +19,7 @@ const DoctorCard = ({ doctor }: { doctor: DoctorProfile }) => {
             className="w-[100px] h-[200px] rounded-lg"
           />
 
-          <View className="flex-1 flex gap-10 p-2  w-full justify-end">
+          <View className="flex-1 flex gap-10 p-2  w-full justify-between  h-[200px]">
             {/* Additional Button would be added here */}
             <View>
               <Text className="font-JakartaExtraBold text-sm">
