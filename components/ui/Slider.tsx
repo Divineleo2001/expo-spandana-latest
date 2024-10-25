@@ -22,7 +22,7 @@ const SliderList = [
 
 const Slider = () => {
   return (
-    <View className="mt-4 ">
+    <View className="mt-2 ">
       <FlatList
         data={SliderList}
         horizontal={true}
@@ -34,7 +34,7 @@ const Slider = () => {
               width: Dimensions.get("screen").width * 0.9,
               height: 170,
               borderRadius: 10,
-              margin: 15,
+              margin: 10,
             }}
           />
         )}

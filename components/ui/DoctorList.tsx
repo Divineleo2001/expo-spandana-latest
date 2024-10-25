@@ -49,7 +49,7 @@ const DoctorList = () => {
   return (
     <View>
          <View className=" ">
-          <View className="p-2 bg-blue-300/50">
+          <View className="p-2 bg-blue-200">
             <View className="">
               <View className="mt-1 ">
                 <View className="flex flex-row items-center gap-5 border-[1px] border-gray-500 rounded-lg p-3 mb-2 w-full">

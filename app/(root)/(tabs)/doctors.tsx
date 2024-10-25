@@ -23,12 +23,7 @@ import DoctorList from "~/components/ui/DoctorList";
 const Doctors = () => {
   return (
     <SafeAreaView className="flex-1 bg-blue-200">
-      <View>
-        <Header />
-        <View className="ml-3 flex flex-row items-center justify-center">
-          <Slider />
-        </View>
-      </View>
+
       <DoctorList />
     </SafeAreaView>
   );
